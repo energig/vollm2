@@ -1,0 +1,63 @@
+* { margin: 0; padding: 0; }
+body { font-size: 10pt/1.2; font-family: Helvetica, Arial, Sans-Serif; margin: 6mm 12mm 6mm 12mm; }
+#page-wrap { width: 100%; margin: 0 auto; }
+
+h4 { font-size: 120%; }
+p { margin-bottom: 3mm;}
+
+table { border-collapse: collapse; }
+table td, table th { border: 1px solid black; padding: 1mm 2mm; }
+table td:empty::after { content: "\00a0"; }
+
+#identity { min-height: 50mm; margin-top: 0; }
+
+#formtitle { overflow: auto; min-height: 170px; float: left; margin-top: 4mm; }
+#formtitle h2 {margin-bottom: 15px; }
+.cleardiv { clear: both; }
+.margtop { margin-top: 20mm; }
+.section { margin-top: 2mm; overflow: hidden; }
+
+#logo { text-align: right; float: right; position: relative; border: 1px solid #fff; max-width: 31mm; max-height: 45mm; overflow: hidden; }
+#logo img { max-width: 100%; max-height: 100%; }
+
+.normtable { clear: both; width: 100%; border: 1px solid black; }
+.normtable th { text-align: left; padding: 0 2mm; background: #a2c13f; height: 4mm; }
+.normtable tr { padding: 0; height: 8mm; min-height: 8mm; }
+.normtable tr.norm-row td { vertical-align: bottom; }
+
+.vmtable { border-collapse: collapse; }
+.vmtable td { border: none; }
+/* td.uline { border-bottom: 0.5mm solid black; vertical-align: bottom;} */
+
+.fimenname { width: 100%;}
+
+.anrede { width: 10%; }
+.titelvn { width: 10%; }
+.vorname { width: 30%; }
+.nachname { width: 30%; }
+.titelnn { width: 20%; }
+
+.strasse { width: 58%; }
+.plz { width: 10%; }
+.ort { width: 15%; }
+.gebdat { width: 15%; }
+
+.telemail { width: 50%; }
+
+.strasse2 { width: 63%; }
+.plz2 { width: 15%; }
+.ort2 { width: 22%; }
+
+.drittel { width: 33%; }
+
+.uschrifttable { padding-top: 0; margin-top: 0; clear: both; width: 100%; }
+.uschrift { vertical-align: bottom; border: 0; }
+.uschriftlabel { width: 35%; border-left: 0; border-right: 0; border-bottom: 0; }
+.uschriftspace { width: 30%; border: 0; }
+
+.smalltext { font-size: 70%; }
+.smalltext80 { font-size: 80%; }
+.just { text-align: justify;}
+
+#footer { position: fixed; bottom: 0; left: 1cm; right: 1cm; width: 90%; height: 12mm; font-size: 70%; text-align: center; border-top: 0.5mm solid black;}
+#terms h5 { text-transform: uppercase; font: 13px Helvetica, Sans-Serif; letter-spacing: 10px; border-bottom: 1px solid black; padding: 0 ; margin: 0; }

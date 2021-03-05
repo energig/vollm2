@@ -1,0 +1,15 @@
+changes 20200715
+----------------
+
+
+
+changes 20200714
+----------------
+- create dir /resources/lang/de
+- copy files to dir de from techdocs/laravel-vollm-lang-de
+- modify config/app.php (localisation)
+- modify routes/web.php (clear-cache, auth-register-routes, admin/users-routes)
+- create and modify /resources/view/admin/users/create.blade.php
+- modify /resources/view/admin/users/index.blade.php
+- modify /app/Http/Controllers/Admin/UsersController.php
+- modify /resources/view/costumers/edit.blade.php
